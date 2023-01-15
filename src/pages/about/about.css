@@ -1,0 +1,23 @@
+.text-container {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 25%;
+    border-top: 2px dashed black;
+    border-bottom: 2px dashed black;
+    /* background-color: azure; */
+}
+
+.text-question {
+    font-size: larger;
+    font-weight: bold;
+}
+
+.text-response {
+    font-size: large;
+    font-weight: lighter;
+    margin: 20px 0 20px 0;
+}
+
+.text-font {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

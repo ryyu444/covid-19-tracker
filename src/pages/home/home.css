@@ -1,0 +1,46 @@
+body {
+    background-color: aliceblue;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.title-text {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.img-container {
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+}
+
+.instruction-container {
+    border-left: 2px dotted rgb(206, 161, 238);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: fit-content;
+    padding-bottom: 2rem;
+}
+
+.instruction-text {
+    font-size: large;
+}
+
+#instruction-title {
+    width: fit-content;
+    border-bottom: 2px solid black;
+}
+
+#home-img {
+    border-radius: 10%;
+    max-width: 100%;
+    height: auto;
+}
